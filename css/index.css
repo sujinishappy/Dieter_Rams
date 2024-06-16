@@ -164,10 +164,9 @@
     line-height: 1.6vw;
     margin-bottom: 1.2vw;
 }
-#about_buttons{
+#about_buttons img{
     width: calc(100vw - .65vw); 
-    height: 49.2vw;
-    background: rgb(207, 207, 207);
+    height:auto
 }
 #about_mock{
     display: flex;
