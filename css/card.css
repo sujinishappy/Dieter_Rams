@@ -1,0 +1,264 @@
+body{
+    background-color: #fdfdfd;
+}
+#wrap{
+    width: calc(100vw - .65vw); 
+    color: #1B1A18;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nav_under .nav_dot2{
+    position: relative;
+    left: 30.9vw;
+    width: 0;
+    height: 0;
+    margin-bottom: .25vw;
+    border-left: .4vw solid transparent;
+    border-right: .4vw solid transparent;
+    border-top: .7vw solid #E84033;
+    transition: left 0.5s ease; /* Smooth transition */
+}
+.back{
+    position: fixed;
+    top: 8vw;
+    left: 5.7vw;
+    font-family: 'BasisGrotesquePro_Light';
+    font-size: calc(100vw * 70/ 1920);
+    color: #19181B;
+    z-index: 10;
+    transition: all .5s ease;
+}
+.back:hover{
+    color: #EEA737;
+}
+#card_main{
+    width: 86vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#card_main img{
+    width: 50vw;
+    height: auto;
+}
+.card_title{
+    text-align: center;
+    margin-bottom: 12vw;
+}
+.card_title p{
+    font-family: 'HelveticaNeueLTPro';
+    font-size: calc(100vw * 36/ 1920);
+}
+.card_title h3{
+    font-family: 'BasisGrotesquePro_Black';
+    font-size: calc(100vw * 90/ 1920);
+    margin: 1vw 0 3vw 0;
+}
+.card_detail{
+    width: 100vw;
+    height: 90vw;
+    display: flex;
+    align-items: center;
+}
+#card1{
+    background-image: url('../img/colletion/b_c1/bg.png'); /* 이미지 경로를 설정합니다 */
+    background-size: 100%; /* 배경 이미지 크기를 90%로 설정합니다 */
+    background-position: center; /* 배경 이미지가 가운데 오도록 설정합니다 */
+    background-repeat: no-repeat;
+}
+#card2{
+    background-image: url('../img/colletion/b_c2/bg.png'); /* 이미지 경로를 설정합니다 */
+    background-size: 100%; /* 배경 이미지 크기를 90%로 설정합니다 */
+    background-position: center; /* 배경 이미지가 가운데 오도록 설정합니다 */
+    background-repeat: no-repeat;
+}
+#card3{
+    background-image: url('../img/colletion/b_c3/bg.png'); /* 이미지 경로를 설정합니다 */
+    background-size: 100%; /* 배경 이미지 크기를 90%로 설정합니다 */
+    background-position: center; /* 배경 이미지가 가운데 오도록 설정합니다 */
+    background-repeat: no-repeat;
+}
+#card4{
+    background-image: url('../img/colletion/b_c4/bg.png'); /* 이미지 경로를 설정합니다 */
+    background-size: 100%; /* 배경 이미지 크기를 90%로 설정합니다 */
+    background-position: center; /* 배경 이미지가 가운데 오도록 설정합니다 */
+    background-repeat: no-repeat;
+}
+#card5{
+    background-image: url('../img/colletion/b_c5/bg.png'); /* 이미지 경로를 설정합니다 */
+    background-size: 100%; /* 배경 이미지 크기를 90%로 설정합니다 */
+    background-position: center; /* 배경 이미지가 가운데 오도록 설정합니다 */
+    background-repeat: no-repeat;
+}
+#card6{
+    background-image: url('../img/colletion/b_c6/bg.png'); /* 이미지 경로를 설정합니다 */
+    background-size: 100%; /* 배경 이미지 크기를 90%로 설정합니다 */
+    background-position: center; /* 배경 이미지가 가운데 오도록 설정합니다 */
+    background-repeat: no-repeat;
+}
+#card7{
+    background-image: url('../img/colletion/b_c7/bg.png'); /* 이미지 경로를 설정합니다 */
+    background-size: 100%; /* 배경 이미지 크기를 90%로 설정합니다 */
+    background-position: center; /* 배경 이미지가 가운데 오도록 설정합니다 */
+    background-repeat: no-repeat;
+}
+#card8{
+    background-image: url('../img/colletion/b_c8/bg.png'); /* 이미지 경로를 설정합니다 */
+    background-size: 100%; /* 배경 이미지 크기를 90%로 설정합니다 */
+    background-position: center; /* 배경 이미지가 가운데 오도록 설정합니다 */
+    background-repeat: no-repeat;
+}
+.left_img{
+    height: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imgsc{
+    height: 20vw;
+}
+.imgsc{
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.left_img img{
+    width: 18vw;
+    margin-left: 7vw;
+    margin: 5vw 0 5vw  7vw;
+}
+.center_content{
+    height: 50vw;
+    margin-left: 4vw;
+}
+
+.up{
+    display: flex;
+    font-family: 'HelveticaNeueLTPro';
+    font-size: calc(100vw * 17/ 1920);
+}
+.up p{
+    margin-bottom: 1.4vw;
+    letter-spacing: .04vw;
+}
+.up-lf{
+    color: #19181ba6;
+}
+.up-rg{
+    margin-left: 2.4vw;
+    color: #19181b;
+}
+.line{
+    width: 28vw;
+    height: .1vw;
+    margin: 1vw 0;
+    background: #19181bb4;
+}
+.down{
+    font-family: 'HelveticaNeueLTPro';
+    font-size: calc(100vw * 16.5/ 1920);
+    letter-spacing: .02vw;
+}
+#card_nav{
+    width: 86vw;
+    height: 80vw;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+#card_nav h3{
+    font-family: 'HelveticaNeueLTPro';
+    font-size: calc(100vw * 32/ 1920);
+    margin-bottom: 2vw;
+}
+
+/*카드 네비게이션*/
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+}
+.slides {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+.slide {
+    margin: 0 1.05%;
+    min-width: 23.1%;
+    height: 24vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background: #E3E3E3;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+.slide:nth-child(1) {
+    margin-left: 0;
+}
+.slide:nth-child(8) {
+    margin-right: 0;
+}
+.slide_img{
+    height: 12vw;
+    display: flex;
+    align-items: center;
+
+}
+.slide img{
+    width: 12vw;
+    transition: all .4s ease-in-out;
+}
+.slide:hover img{
+    transform: scale(1.02);
+}
+.slide:hover {
+    background: #EEA737;
+}
+.cardp{
+    font-family: 'BasisGrotesquePro_Bold';
+    font-size: calc(100vw * 20/ 1920);
+    margin-top: 2vw;
+}
+.slider-bar {
+    width: 100%;
+    margin-top: 10vw;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #19181B;
+    height: .1vw;
+    cursor: none;
+    transition: all 0.5s ease;
+}
+.slider-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: .25vw;
+    height: 2.5vw;
+    background: #E84033;
+    transition: all 0.5s ease; /* Smooth transition */
+}
+.slider-bar::-moz-range-thumb {
+    width: .25vw;
+    height: 2.5vw;
+    background: #E84033;
+    transition: left 0.5s ease, transform 0.3s ease-in-out;
+}
+.slider-bar:active::-webkit-slider-thumb {
+    transform: scale(1.2);
+}
+.slider-bar:active::-moz-range-thumb {
+    transform: scale(1.2);
+}
+.slider-bar.active {
+    background-color: #ccc; /* 슬라이더 바 활성화 시 스타일 변경 */
+}

@@ -1,0 +1,86 @@
+.slideInLeft {
+    animation: slideInLeft 1.5s ease forwards;
+}
+.slideInLeft.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.slideInLeft.hinge {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+/*the animation definition*/
+@-webkit-keyframes slideInLeft {
+    0% {
+    -webkit-transform: translate3d(-10%, 0, 0);
+    transform: translate3d(-10%, 0, 0);
+    visibility: visible;
+    opacity: 0;
+    }
+    100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    }
+}
+@keyframes slideInLeft {
+    0% {
+    -webkit-transform: translate3d(-10%, 0, 0);
+    -ms-transform: translate3d(-10%, 0, 0);
+    transform: translate3d(-10%, 0, 0);
+    visibility: visible;
+    opacity: 0;
+    }
+    100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    }
+}
+/**/
+.slideInRight {
+    animation: slideInRight 2s ease forwards;
+}
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.animated.hinge {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+/*the animation definition*/
+@-webkit-keyframes slideInRight {
+    0% {
+    -webkit-transform: translate3d(10%, 0, 0);
+    transform: translate3d(10%, 0, 0);
+    visibility: visible;
+    opacity: 0;
+    }
+    100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    }
+}
+@keyframes slideInRight {
+    0% {
+    -webkit-transform: translate3d(10%, 0, 0);
+    -ms-transform: translate3d(10%, 0, 0);
+    transform: translate3d(10%, 0, 0);
+    visibility: visible;
+    opacity: 0;
+    }
+    100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    }
+}
+.slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight
+}
+  
