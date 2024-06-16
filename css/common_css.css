@@ -161,6 +161,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: loading2 5.5s ease forwards;
 }
 .loading h2{
     font-family: 'BasisGrotesquePro_Bold';
@@ -247,6 +248,17 @@ body{
         opacity: 0;
     }
     20% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes loading2 {
+    00% {
+        opacity: 1;
+    }
+    92% {
         opacity: 1;
     }
     100% {
