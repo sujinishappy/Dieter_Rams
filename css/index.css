@@ -1,6 +1,6 @@
 #Main{
     width: calc(100vw - .65vw); 
-    height: 49.2vw;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,7 +70,7 @@
 }
 #About{
     width: calc(100vw - .65vw); 
-    height: 49.2vw;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -171,17 +171,17 @@
 #about_mock{
     display: flex;
     width: calc(100vw - .65vw); 
-    height: 49.2vw;
+    height: 100vh;
     background: #19181B;
 
 }
 .about_left2 img{
     width: 50vw;
-    height: 49.2vw;
+    height: 100vh;
 }
 .about_right2{
     width: 50vw;
-    height: 49.2vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,7 +193,7 @@
 }
 #Concept{
     width: calc(100vw - .65vw); 
-    height: 49.2vw;
+    height: vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -398,7 +398,7 @@
 
 #Braun{
     width: calc(100vw - .65vw); 
-    height: 49.2vw;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -500,7 +500,7 @@ img.logo4{
 }
 #Collection{
     width: calc(100vw - .65vw); 
-    height: 49.2vw;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -639,7 +639,7 @@ img.logo4{
 
 #Next{
     width: calc(100vw - .65vw); 
-    height: 49.2vw;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
