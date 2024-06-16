@@ -1,4 +1,5 @@
 //로딩
+$(document).ready(function() {
     const loader = $('.loader');
     const html = $('html');
 
@@ -7,15 +8,10 @@
         html.removeClass('no-scroll');
     }
 
-    // Check if it's a page reload or initial load
-    if (performance.navigation.type === 1) {
-        // Page is loaded or reloaded
-        html.addClass('no-scroll');
-        setTimeout(hideLoader, 5500);
-    }else {
-        // Page is reloaded
-        hideLoader();
-    }
+    // Always show the loader on page load or reload
+    html.addClass('no-scroll');
+    setTimeout(hideLoader, 5500);
+});
 //포인터
 const $cursor = document.querySelector('.pointer');
         let mouseX = 0, mouseY = 0;
