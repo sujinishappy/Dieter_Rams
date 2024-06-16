@@ -193,7 +193,7 @@
 }
 #Concept{
     width: calc(100vw - .65vw); 
-    height: vw;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
