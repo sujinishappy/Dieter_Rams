@@ -419,7 +419,7 @@ footer p:nth-child(1){
 margin-right: 20vw;
 }
 
-.loader {
+/* .loader {
     position: fixed;
     top: 0;
     left: 0;
@@ -536,4 +536,4 @@ margin-right: 20vw;
     100% {
         opacity: 0;
     }
-}
+} */
