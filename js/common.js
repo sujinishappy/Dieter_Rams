@@ -1,4 +1,3 @@
-//로딩
 $(document).ready(function() {
     const loader = $('.loader');
     const html = $('html');
@@ -12,6 +11,10 @@ $(document).ready(function() {
     html.addClass('no-scroll');
     setTimeout(hideLoader, 5500);
 });
+
+
+
+
 //포인터
 const $cursor = document.querySelector('.pointer');
         let mouseX = 0, mouseY = 0;
