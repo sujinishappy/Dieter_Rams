@@ -47,13 +47,13 @@ const $cursor = document.querySelector('.pointer');
 
         function updatePointerStyle() {
             if (isHovering) {
-                $cursor.style.transform = 'scale(1.5)';
+                $cursor.style.transform = 'scale(1.3)';
                 $cursor.style.border = '.15vw solid #1C246A';
-                $cursor.style.backgroundColor = '#1c246a83';
+                $cursor.style.backgroundColor = '#1C246A';
             } else {
                 $cursor.style.transform = 'scale(1)';
                 $cursor.style.border = '.15vw solid #ABBAFF';
-                $cursor.style.backgroundColor = '#abbaff1a';
+                $cursor.style.backgroundColor = '#ABBAFF';
             }
         }
 
