@@ -1,16 +1,16 @@
-$(document).ready(function() {
-    const loader = $('.loader');
-    const html = $('html');
+// $(document).ready(function() {
+//     const loader = $('.loader');
+//     const html = $('html');
 
-    function hideLoader() {
-        loader.addClass('hidden2');
-        html.removeClass('no-scroll');
-    }
+//     function hideLoader() {
+//         loader.addClass('hidden2');
+//         html.removeClass('no-scroll');
+//     }
 
-    // Always show the loader on page load or reload
-    html.addClass('no-scroll');
-    setTimeout(hideLoader, 5500);
-});
+//     // Always show the loader on page load or reload
+//     html.addClass('no-scroll');
+//     setTimeout(hideLoader, 5500);
+// });
 
 
 
