@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 } else if ([7, 8, 9, 17, 18, 19, 22].includes(index)) {
                     color = '#B9B9B9';
                 } else if (index === 24) {
-                    color = '#ff0000';
+                    color = '#FCC45A';
                 }
             } else {
                 color = initialColor;
