@@ -716,7 +716,7 @@ img.logo4{
 }
 .sticky3 {
     position: sticky;
-    bottom: 0;
+    top: 2vw;    
     left: 0;
     width: 38vw;
 }
